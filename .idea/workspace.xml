@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="faad2838-26db-4f18-a2dc-833ba754db81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/SellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/DepartmentDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/entities/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ER Diagrama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Teste_Insert_Seller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-basico-java-dao-factory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-basico-java-dao-factory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2V83s1ibDAGbvvpv77RKl5ieYGh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,19 +47,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Cursos/Java/persistenciaDeDados/jdbc-basico-java-dao-factory"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Cursos\Java\persistenciaDeDados\jdbc-basico-java-dao-factory\src\lib" />
       <recent name="C:\Cursos\Java\jdbc-basico-java-dao-factory\lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="robson.jdbc.exemplos.java.model.dao" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.db.DB" />
+      <module name="jdbc-basico-java-dao-factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robson.jdbc.exemplos.java.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.application.Main" />
+      <module name="jdbc-basico-java-dao-factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robson.jdbc.exemplos.java.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DB" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,5 +119,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -32,7 +32,7 @@ public class DB {
 
     private static Properties loadProperties(){
         Properties prop = new Properties();
-        try (FileInputStream fs = new FileInputStream("src\\db.properties")){
+        try (FileInputStream fs = new FileInputStream("db.properties")){
             prop.load(fs);
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -50,7 +50,7 @@ public class DB {
         }
     }
 
-    public static void closeResultSet(ResultSet rs){
+    public static void closeResultSet(ResultSet rs) {
         if (rs != null) {
             try {
                 rs.close();
