@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SellerDaoJDBC implements SellerDao {
 
-    private Connection conn;
+    private final Connection conn;
 
     public SellerDaoJDBC(Connection conn) {
         this.conn = conn;
@@ -19,20 +19,20 @@ public class SellerDaoJDBC implements SellerDao {
     @Override
     public void insert(Seller obj) {
         String sql = "INSERT INTO seller (name, email, birthDate, baseSalary, departmentId) VALUES (?, ?, ?, ?, ?)";
-        PreparedStatement ps = null;
+        PreparedStatement st = null;
         try {
-            ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            st = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
-            ps.setString(1, obj.getName());
-            ps.setString(2, obj.getEmail());
-            ps.setDate(3,new java.sql.Date(obj.getBirthDate().getTime()));
-            ps.setDouble(4, obj.getBaseSalary());
-            ps.setInt(5, obj.getDepartment().getId());
+            st.setString(1, obj.getName());
+            st.setString(2, obj.getEmail());
+            st.setDate(3,new java.sql.Date(obj.getBirthDate().getTime()));
+            st.setDouble(4, obj.getBaseSalary());
+            st.setInt(5, obj.getDepartment().getId());
 
-            int rowsAffected = ps.executeUpdate();
+            int rowsAffected = st.executeUpdate();
 
             if (rowsAffected > 0){
-                ResultSet rs = ps.getGeneratedKeys();
+                ResultSet rs = st.getGeneratedKeys();
                 if (rs.next()){
                     int id = rs.getInt(1);
                     obj.setId(id);
@@ -44,13 +44,32 @@ public class SellerDaoJDBC implements SellerDao {
         } catch (SQLException e){
             System.out.println(e.getMessage());
         } finally {
-            DB.closeStatement(ps);
+            DB.closeStatement(st);
         }
     }
 
     @Override
     public void update(Seller obj) {
+        String sql = "UPDATE seller SET name=?, email=?, birthDate=?, baseSalary=?, departmentId=? WHERE id=?";
+        PreparedStatement st = null;
 
+        try{
+            st = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+
+            st.setString(1, obj.getName());
+            st.setString(2, obj.getEmail());
+            st.setDate(3, new java.sql.Date(obj.getBirthDate().getTime()));
+            st.setDouble(4, obj.getBaseSalary());
+            st.setInt(5, obj.getDepartment().getId());
+            st.setInt(6, obj.getId());
+
+            st.executeUpdate();
+
+        } catch (SQLException e){
+            System.out.println(e.getMessage());
+        } finally {
+            DB.closeStatement(st);
+        }
     }
 
     @Override

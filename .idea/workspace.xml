@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faad2838-26db-4f18-a2dc-833ba754db81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ER Diagrama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Teste_Insert_Seller.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-basico-java-dao-factory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-basico-java-dao-factory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/db/DB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../java17/lib/src.zip!/java.sql/java/sql/PreparedStatement.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2V83s1ibDAGbvvpv77RKl5ieYGh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Cursos/Java/persistenciaDeDados/jdbc-basico-java-dao-factory"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Cursos/Java/persistenciaDeDados/jdbc-basico-java-dao-factory&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Cursos\Java\persistenciaDeDados\jdbc-basico-java-dao-factory\src\lib" />
