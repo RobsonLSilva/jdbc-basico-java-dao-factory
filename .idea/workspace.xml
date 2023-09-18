@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faad2838-26db-4f18-a2dc-833ba754db81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/DepartmentDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

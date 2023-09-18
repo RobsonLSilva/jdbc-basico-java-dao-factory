@@ -123,6 +123,7 @@ public class SellerDaoJDBC implements SellerDao {
             st = conn.prepareStatement(sql);
             st.setInt(1, id);
             rs = st.executeQuery();
+
             if (rs.next()) {    // se veio alguma coisa na minha consulta
                 Department dep = instantiateDepartment(rs);
                 return instantiateSeller(rs, dep);
