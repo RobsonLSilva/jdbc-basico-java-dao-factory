@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faad2838-26db-4f18-a2dc-833ba754db81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/DepartmentDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/implementations/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robson/jdbc/exemplos/java/model/dao/DaoFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <recent name="robson.jdbc.exemplos.java.model.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main_01">
     <configuration name="DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.db.DB" />
       <module name="jdbc-basico-java-dao-factory" />
@@ -78,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.application.Main" />
+    <configuration name="Main_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.application.Main_01" />
+      <module name="jdbc-basico-java-dao-factory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robson.jdbc.exemplos.java.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robson.jdbc.exemplos.java.application.Main_02" />
       <module name="jdbc-basico-java-dao-factory" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main_02" />
+        <item itemvalue="Application.Main_01" />
         <item itemvalue="Application.DB" />
       </list>
     </recent_temporary>

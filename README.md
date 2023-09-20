@@ -1,9 +1,9 @@
 <h3 align="center">
          <img alt="logo java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"> Persistência de Dados: JDBC 
-
+🚀
 </h3>
 
-<p align="center">Exemplo de persistência de dados utilizando JDBC com Design Pattern DAO e Factory Method</p>
+<p align="center">Exemplo de persistência de dados utilizando JDBC com 'Design' Pattern DAO e Factory Method</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/robson-lsilva/">
@@ -28,17 +28,18 @@
 
 ## :dart: Objetivo <a name="objetivo"></a>
 <p>
-Servir de base ao aprendizado sobre persistência de dados utilizando a linguagem <strong>java</strong> em conjunto com a biblioteca <strong>JDBC</strong> com Design Pattern (DAO) e Factory Method.
+Servir de base ao aprendizado sobre persistência de dados utilizando a linguagem <strong>java</strong> em conjunto com a biblioteca <strong>JDBC</strong> com 'Design' 'Pattern' (DAO) e Factory Method.
 </p>
 <p>
-Foi utilizado o <a href="https://www.mysql.com/"><img src="https://img.shields.io/static/v1?label=Banco de dados&message=Mysql&color=white&style=plastic&logo=mysql&logoColor=white"/></a> no projeto, onde foi criado uma entidade cliente. Em java foram criadas algumas classes, uma classe DB para controlar as conexões, uma classe Cliente com os atributos condizentes com a entidade cliente criada no banco de dados, uma ‘interface’ ClienteDao onde os métodos a serem implementados e uma classe de implementação chamada ClienteDaoJDBC que implementa todos os métodos da ‘interface’ ClienteDao.
+Foi utilizado<a href="https://www.mysql.com/"><img src="https://img.shields.io/static/v1?label=Banco de dados&message=Mysql&color=white&style=plastic&logo=mysql&logoColor=white"/></a> no projeto, onde foi criado duas entidades, seller e departament.<br>
+Em java foram criadas algumas classes, uma classe DB para controlar as conexões, duas classes, Seller e Department com os atributos condizentes com as entidades criadas no banco de dados, duas ‘interfaces’ SellerDao e DepartmentDao onde os métodos a serem implementados estão e duas classes de implementação chamadas SellerDaoJDBC e DepartmentDaoJDBC que implementam todos os métodos das ‘interfaces’, além dessas classes foi criada uma classe chamada DaoFactory que será responsavel por instanciar novos objetos de SellerDaoJDBC e DepartmentDaoJDBC.
 </p>
 
 As quatro operações foram implementadas:
-<li style="list-style-type: none;">✅  Create  &emsp;🚧 Em construção.</li>
-<li style="list-style-type: none;">👁️  Read    &emsp;&ensp;🚧 Em construção.</li>
-<li style="list-style-type: none;">♻️  Update  &ensp;🚧 Em construção.</li>
-<li style="list-style-type: none;">❌  Delete  &emsp;🚧 Em construção.</li>
+<li style="list-style-type: none;">✅  Create  &emsp;🚀 Concluido.</li>
+<li style="list-style-type: none;">👁️  Read    &emsp;&ensp;🚀 Concluido.</li>
+<li style="list-style-type: none;">♻️  Update  &ensp;🚀 Concluido.</li>
+<li style="list-style-type: none;">❌  Delete  &emsp;🚀 Concluido.</li>
 
 
 
